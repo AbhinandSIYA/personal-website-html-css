@@ -1,10 +1,9 @@
-.header{
+.header {
     height: 150px;
     width: 100%;
-
-    background: #ffffff url("bg4.png") ;
+    background: #ffffff url("bg4.png");
 }
-.name{
+.text-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +110,11 @@ div.gallery img {
     font-family: Arial;
     text-align: center;
     margin-top: 55px;
+}
+.header .text-wrapper {
+    overflow: hidden;
+}
+.header .letter {
+    display: inline-block;
+    line-height: 1em;
 }
