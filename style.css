@@ -1,0 +1,114 @@
+.header{
+    height: 150px;
+    width: 100%;
+
+    background: #ffffff url("bg4.png") ;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    font-family: "Urban Jungle";
+    font-size: xx-large;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+.name2{
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: -40px;
+    color: #940900;
+    font-size: large;
+}
+.portfolio{
+    width: 20%;
+    height: 800px;
+    float: left;
+    overflow: scroll;
+    background: #ffffff url("bg2.jpg");
+}
+.content{
+    height: 800px;
+    width: 80%;
+    background-color: green;
+    float: right;
+}
+.description{
+    float: left;
+    height: 800px;
+    width: 70%;
+    background-color: black;
+}
+.desimg{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    background-image: url("bg.jpg");
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+
+}
+.about {
+    height: 700px;
+    width: 80%;
+    background-color: deeppink;
+    box-shadow: 13px 12px 25px #303030;
+    color: white;
+    font-weight: bold;
+}
+.aboutmain{
+    float: right;
+    width: 30%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg2.jpg");
+}
+.footer {
+    height: 100px;
+    width: 100%;
+   background-image: url("bg4.png");
+    float: right;
+}
+div.gallery:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.responsive {
+    padding: 0 6px;
+}
+.aboutimg img{
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+}
+.aboutimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.abouttxt{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 55px;
+}
+.contact{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 55px;
+}
